@@ -1,0 +1,20 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inconsolata", "Monaco", monospace;
+  overflow: hidden;
+  margin: 0;
+  color: #a0a2ae;
+  background: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+  position: absolute;
+  z-index: 1;
+}
