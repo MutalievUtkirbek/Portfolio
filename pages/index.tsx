@@ -1,12 +1,10 @@
 import React from 'react'
 import { NextPage } from 'next'
 import Head from 'next/head'
+import Script from 'next/script'
 import Header from '../layouts/Home/Components/Header'
 import Skills from '../layouts/Home/Components/Skills'
 import Projects from '../layouts/Home/Components/Projects'
-import GithubIcon from '../assets/Icons/GithubGradientIcon'
-import IconButton from '../components/IconButton'
-import TelegramGradientIcon from '../assets/Icons/TelegramGradientIcon'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +16,21 @@ const Home: NextPage = () => {
           content="Jakhongir Abdukhamidov Portfolio Home Page"
         />
       </Head>
+      <div>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-4K1CWWRDXD"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-4K1CWWRDXD');
+          `}
+        </Script>
+      </div>
       <Header />
       <main className="bg-white">
         <section className="min-h-screen">
