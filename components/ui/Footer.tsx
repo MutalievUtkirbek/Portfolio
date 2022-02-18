@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
 
   return (
     <>
-      <footer className=" bg-white pt-8 pb-6">
+      <footer className="bg-white pt-8 pb-6">
         <div
           className="pointer-events-none absolute bottom-auto top-0 left-0 right-0 -mt-20 h-20 w-full overflow-hidden"
           style={{ transform: 'translateZ(0)' }}

@@ -12,26 +12,20 @@ const Skills = () => {
         <div className="mr-auto  w-full px-4 md:w-6/12">
           <div className="relative flex flex-wrap justify-center">
             <div className="my-4 w-full px-4 lg:w-6/12">
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
-                <div className="rounded-lg bg-red-600 p-8 text-center shadow-lg">
+              <a href="https://ijakhongir.uz" target="_blank">
+                <div className="rounded-lg bg-gradient-to-r from-green-200 via-green-400 to-green-500 p-8 text-center shadow-lg">
                   <img
                     alt="..."
-                    className="mx-auto w-16 max-w-full rounded-full bg-white p-2 shadow-md"
-                    src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/svelte.jpg"
+                    className="mx-auto h-16 w-16 max-w-full rounded-full bg-white object-cover object-center p-2 shadow-md"
+                    src="https://miro.medium.com/max/400/1*JmhL1ebyzd7mhlcacz-b9g.jpeg"
                   />
                   <p className="mt-4 text-lg font-semibold text-white">
-                    Svelte
+                    NodeJS
                   </p>
                 </div>
               </a>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
-                <div className="bg-lightBlue-500 mt-8 rounded-lg p-8 text-center shadow-lg">
+              <a href="https://ijakhongir.uz" target="_blank">
+                <div className=" mt-8 rounded-lg bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 p-8 text-center shadow-lg">
                   <img
                     alt="..."
                     className="mx-auto w-16 max-w-full rounded-full bg-white p-2 shadow-md"
@@ -42,11 +36,8 @@ const Skills = () => {
                   </p>
                 </div>
               </a>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
-                <div className="bg-blueGray-700 mt-8 rounded-lg p-8 text-center shadow-lg">
+              <a href="https://ijakhongir.uz" target="_blank">
+                <div className="mt-8 rounded-lg bg-gradient-to-r from-rose-700 to-pink-600 p-8 text-center shadow-lg">
                   <img
                     alt="..."
                     className="mx-auto w-16 max-w-full rounded-full bg-white p-2 shadow-md"
@@ -59,10 +50,7 @@ const Skills = () => {
               </a>
             </div>
             <div className="my-4 w-full px-4 lg:mt-16 lg:w-6/12">
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
+              <a href="https://ijakhongir.uz" target="_blank">
                 <div className="rounded-lg bg-yellow-500 p-8 text-center shadow-lg">
                   <img
                     alt="..."
@@ -74,33 +62,25 @@ const Skills = () => {
                   </p>
                 </div>
               </a>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/angular/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
+              <a href="https://ijakhongir.uz" target="_blank">
                 <div className="mt-8 rounded-lg bg-red-700 p-8 text-center shadow-lg">
                   <img
                     alt="..."
-                    className="mx-auto w-16 max-w-full rounded-full bg-white p-2 shadow-md"
-                    src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/angular.jpg"
+                    className="mx-auto h-16 w-16 max-w-full rounded-full bg-white object-cover object-center p-2 shadow-md"
+                    src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
                   />
-                  <p className="mt-4 text-lg font-semibold text-white">
-                    Angular
-                  </p>
+                  <p className="mt-4 text-lg font-semibold text-white">AWS</p>
                 </div>
               </a>
-              <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                target="_blank"
-              >
+              <a href="https://ijakhongir.uz" target="_blank">
                 <div className="mt-8 rounded-lg bg-emerald-500 p-8 text-center shadow-lg">
                   <img
                     alt="..."
-                    className="mx-auto w-16 max-w-full rounded-full bg-white p-2 shadow-md"
-                    src="https://raw.githubusercontent.com/creativetimofficial/public-assets/master/logos/vue.jpg"
+                    className="mx-auto h-16 w-16 max-w-full rounded-full bg-white object-cover object-center p-2 shadow-md"
+                    src="https://assets-global.website-files.com/6130fa1501794e37c21867cf/6191a3901b4f74718ba3916a_613294646e81b85ff5c7a1ef_MongoDB.svg"
                   />
                   <p className="mt-4 text-lg font-semibold text-white">
-                    Vue.js
+                    MongoDB
                   </p>
                 </div>
               </a>
@@ -138,7 +118,6 @@ const Skills = () => {
           </p>
         </div>
       </div>
-      {/* </div> */}
     </>
   )
 }

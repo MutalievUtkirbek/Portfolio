@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import Clouds from '../Icons/Clouds'
 
 const Projects: React.FC = () => {
@@ -7,7 +6,7 @@ const Projects: React.FC = () => {
     <div
       className="h-full min-h-screen overflow-hidden bg-indigo-900"
       style={{
-        clipPath: 'polygon(0 0, 100% 10%, 100% 100%, 0 100%);',
+        clipPath: 'polygon(0 0, 100% 5vw, 100% 100%, 0 100%);',
       }}
     >
       <div className="container flex h-full w-full items-center justify-center pt-32">
@@ -27,7 +26,7 @@ const Projects: React.FC = () => {
             </a>
           </div>
 
-          <div className="h-full w-full cursor-pointer px-4">
+          <div className="my-12 h-80 w-full cursor-pointer px-4 lg:my-0">
             <h5 className="pb-4 text-center text-xl font-semibold text-red-400">
               StanfordSchool
             </h5>

@@ -8,7 +8,7 @@ import Rocket from '../Icons/Rocket'
 const Header = () => {
   return (
     <div
-      className="relative overflow-hidden bg-indigo-900"
+      className="relative z-10 overflow-hidden bg-indigo-900"
       style={{
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 5vw))',
       }}

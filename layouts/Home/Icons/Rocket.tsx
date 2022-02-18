@@ -16,14 +16,14 @@ const Rocket = () => {
           r="226.21"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#6e3f63" />
-          <stop offset=".15" stop-color="#633d62" />
-          <stop offset=".41" stop-color="#473660" />
-          <stop offset=".5" stop-color="#3b335f" />
-          <stop offset=".6" stop-color="#38315c" stop-opacity=".88" />
-          <stop offset=".76" stop-color="#302b55" stop-opacity=".57" />
-          <stop offset=".97" stop-color="#242249" stop-opacity=".07" />
-          <stop offset="1" stop-color="#222147" stop-opacity="0" />
+          <stop offset="0" stopColor="#6e3f63" />
+          <stop offset=".15" stopColor="#633d62" />
+          <stop offset=".41" stopColor="#473660" />
+          <stop offset=".5" stopColor="#3b335f" />
+          <stop offset=".6" stopColor="#38315c" stopOpacity=".88" />
+          <stop offset=".76" stopColor="#302b55" stopOpacity=".57" />
+          <stop offset=".97" stopColor="#242249" stopOpacity=".07" />
+          <stop offset="1" stopColor="#222147" stopOpacity="0" />
         </radialGradient>
       </defs>
       <g data-name="Capa 1">
@@ -335,8 +335,8 @@ const Rocket = () => {
           r="14.36"
           fill="none"
           stroke="#514575"
-          stroke-dasharray="2.255 2.255 0 2.255 2.255 0"
-          stroke-linecap="round"
+          strokeDasharray="2.255 2.255 0 2.255 2.255 0"
+          strokeLinecap="round"
           strokeMiterlimit="10"
           strokeWidth="1.102"
         />
@@ -346,8 +346,8 @@ const Rocket = () => {
           r="21.74"
           fill="none"
           stroke="#514575"
-          stroke-dasharray="3.414 3.414 0 3.414 3.414 0"
-          stroke-linecap="round"
+          strokeDasharray="3.414 3.414 0 3.414 3.414 0"
+          strokeLinecap="round"
           strokeMiterlimit="10"
           strokeWidth="1.102"
           transform="rotate(-31.72 338.036 135.845)"
@@ -808,9 +808,9 @@ const Rocket = () => {
         />
         <text
           fill="#fcf7ed"
-          font-family="AsapCondensed-SemiBold,Asap Condensed"
-          font-size="15.5"
-          font-weight="600"
+          fontFamily="AsapCondensed-SemiBold,Asap Condensed"
+          fontSize="15.5"
+          fontWeight="600"
           transform="translate(415.31 221.62)"
         >
           2

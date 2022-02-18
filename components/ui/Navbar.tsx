@@ -3,8 +3,15 @@ import Link from 'next/link'
 import IconButton from '../IconButton'
 import HomeIcon from '../../assets/Icons/HomeIcon'
 import MenuIcon from '../../assets/Icons/MenuIcon'
+import XIcon from '../../assets/Icons/XIcon'
 
 const Navbar = () => {
+  const [open, setOpen] = React.useState(false)
+
+  const handleToggle = () => {
+    setOpen((prevState) => !prevState)
+  }
+
   return (
     <header className="absolute top-0 left-0 right-0 z-20">
       <nav
@@ -22,10 +29,11 @@ const Navbar = () => {
             </Link>
 
             <div className="md:hidden">
-              <button className="text-white focus:outline-none">
-                <IconButton>
-                  <MenuIcon />
-                </IconButton>
+              <button
+                className="text-white focus:outline-none"
+                onClick={handleToggle}
+              >
+                <IconButton>{open ? <XIcon /> : <MenuIcon />}</IconButton>
               </button>
             </div>
           </div>
@@ -45,19 +53,21 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="z-40 mt-4 flex w-full flex-col overflow-hidden rounded bg-indigo-600 py-2 md:hidden">
-          {Object.entries({
-            about: 'About me',
-            blogs: 'Blogs',
-            contact: 'Contact me',
-          }).map(([key, value]) => (
-            <Link href={`/${key}`} key={key}>
-              <a className="block px-4 py-2 uppercase text-white hover:bg-indigo-700">
-                {value}
-              </a>
-            </Link>
-          ))}
-        </div>
+        {open && (
+          <div className="z-40 mt-4 flex w-full flex-col overflow-hidden rounded bg-indigo-600 py-2 md:hidden">
+            {Object.entries({
+              about: 'About me',
+              blogs: 'Blogs',
+              contact: 'Contact me',
+            }).map(([key, value]) => (
+              <Link href={`/${key}`} key={key}>
+                <a className="block px-4 py-2 uppercase text-white hover:bg-indigo-700">
+                  {value}
+                </a>
+              </Link>
+            ))}
+          </div>
+        )}
       </nav>
     </header>
   )

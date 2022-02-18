@@ -18,8 +18,8 @@ const Clouds = () => {
           r="259.84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0" stop-color="#d37575" />
-          <stop offset=".99" stop-color="#58448b" stop-opacity="0" />
+          <stop offset="0" stopColor="#d37575" />
+          <stop offset=".99" stopColor="#58448b" stopOpacity="0" />
         </radialGradient>
         <radialGradient
           id="c"
@@ -33,7 +33,7 @@ const Clouds = () => {
           <path fill="none" d="M0 0h662.41v385.07H0z" />
         </clipPath>
       </defs>
-      <g clip-path="url(#b)" style={{ mixBlendMode: 'lighten' }}>
+      <g clipPath="url(#b)" style={{ mixBlendMode: 'lighten' }}>
         <g opacity=".2">
           <path
             fill="#58448b"
